@@ -1,115 +1,18 @@
-.todos {
-  display: flex;
-  -webkit-box-align: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100px;
+.theme-btn {
+  padding: 5px 8px;
+  cursor: pointer;
 }
 
-.todos-title {
-  margin-top: 50px;
-}
-
-.todos-desc {
+.theme-title {
   margin: 0;
-  padding: 5px 0;
+  padding-top: 50px;
+}
+
+.theme-desc {
+  margin: 0;
+  padding: 20px 0;
   font-size: 1.2rem;
   font-weight: 300;
   letter-spacing: .5px;
-  opacity: .8;
-}
-
-.todo-add {
-  max-width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.todo-list {
-  min-width: 400px;
-  border: 1px solid rgba(0,0,0,.06);
-  border-radius: 2px;
-  padding: 20px;
-  max-width: 600px;
-}
-
-.todo-list-item {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  padding: 12px 0;
-  color: #000000d9;
-  border-bottom: 1px solid rgba(0,0,0,.06);
-  justify-content: space-between;
-}
-
-.todo-list-item:last-child {
-  border-bottom: 0;
-}
-
-.todo-list-item-content {
-  width: 100%;
-  padding: 8px;
-  overflow-wrap: break-word;
-}
-
-.input {
-  box-sizing: border-box;
-  margin: 0;
-  font-variant: tabular-nums;
-  list-style: none;
-  font-feature-settings: "tnum";
-  position: relative;
-  display: inline-block;
-  height: 46px;
-  width: 100%;
-  min-width: 200px;
-  padding: 4px 11px;
-  color: #000000d9;
-  font-size: 14px;
-  line-height: 1.5715;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  transition: all .3s;
-  outline: transparent solid 2px;
-  outline-offset: 2px;
-  background: #edf2f7;
-}
-
-.input:hover {
-  border-color: #40a9ff;
-  background-color: #ffffff;
-}
-
-.btn {
-  position: relative;
-  display: inline-block;
-  font-weight: 400;
-  white-space: nowrap;
-  text-align: center;
-  border: 1px solid #1890ff;
-  cursor: pointer;
-  background-color: #1890ff;
-  color: #ffffff;
-  line-height: 14px;
-  height: 28px;
-  padding: 4px 10px;
-  margin: 0 5px;
-  font-size: 14px;
-  border-radius: 2px;
-}
-
-.btn:hover {
-  color: #fff;
-  border-color: #40a9ff;
-  background: #40a9ff;
-}
-
-.btn-lg {
-  height: 40px;
-  padding: 6.4px 20px;
-  font-size: 16px;
-  border-radius: 5px;
+  /* opacity: .8; */
 }

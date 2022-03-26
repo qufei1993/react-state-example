@@ -1,11 +1,10 @@
 import AppProviders from './contexts';
-import Todos from './components/todos';
-
+import ToggleTheme from './components/ToggleTheme';
 import './App.css';
 
 const App = () => (
   <AppProviders>
-    <Todos />
+    <ToggleTheme />
   </AppProviders>
 );
 

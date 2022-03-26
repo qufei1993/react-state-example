@@ -1,9 +1,8 @@
-import { TodoProvider } from './TodoContext';
+import { ThemeProvider } from './ThemeContext';
 
 const AppProviders = ({ children }) => {
-  return <TodoProvider>
+  return <ThemeProvider>
     { children }
-  </TodoProvider>
+  </ThemeProvider>
 }
-
 export default AppProviders;
