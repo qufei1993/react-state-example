@@ -1,11 +1,14 @@
-import AppProviders from './contexts';
-import ToggleTheme from './components/ToggleTheme';
+import { Provider } from 'react-redux';
+
+import store from './store';
+import Routers from './routes';
+
 import './App.css';
 
 const App = () => (
-  <AppProviders>
-    <ToggleTheme />
-  </AppProviders>
+  <Provider store={store}>
+    <Routers />
+  </Provider>
 );
 
 export default App;
