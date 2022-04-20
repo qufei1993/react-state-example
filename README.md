@@ -9,4 +9,4 @@
 
 * [useReducer + useContext 实现 Todos](https://github.com/qufei1993/react-state-example/tree/usereducer-usecontext-todos)
   
-* [Redux 实现 todos] https://github.com/qufei1993/react-state-example/tree/redux-todos
+* [Redux 实现 todos](https://github.com/qufei1993/react-state-example/tree/redux-todos)
